@@ -48,6 +48,20 @@
 
     <section id="messagerie" style="display: none;">
       <h2>Messagerie</h2>
+      <!-- Ajout du formulaire de messagerie -->
+    <form action="send_message.php" method="POST">
+      <label for="destinataire">Destinataire :</label><br>
+      <select id="destinataire" name="destinataire">
+        <option value="acheteur1">Acheteur 1</option>
+        <option value="acheteur2">Acheteur 2</option>
+        <option value="vendeur1">Vendeur 1</option>
+        <!-- Ajoutez d'autres options pour d'autres destinataires -->
+      </select><br><br>
+      <label for="message">Message :</label><br>
+      <textarea name="message"></textarea><br>
+      <input type="submit" value="Envoyer">
+    </form>
+  </div>
       <!-- Interface de messagerie pour les échanges entre acheteurs et vendeurs -->
       <div class="conversation">
         <!-- Afficher les messages ici -->
