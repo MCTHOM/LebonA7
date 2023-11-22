@@ -79,21 +79,5 @@
 <head>
   <meta charset="UTF-8">
   <title>Plateforme d'Achat et Vente</title>
-</head>
-<body>
 
-  <nav>
-    <select onchange="showSection(this.value)">
-      <option value="" selected disabled>Choisissez une option</option>
-      <option value="publier.html">Publier une Annonce</option>
-      <option value="annonces.html">Annonces</option>
-      <option value="messagerie.html">Messagerie</option>
-    </select>
-  </nav>
-
-  <footer>
-    <p>Plateforme d'Achat et Vente &copy; 2023</p>
-  </footer>
-
-</body>
 </html>
